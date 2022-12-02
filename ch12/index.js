@@ -2,7 +2,7 @@
 import http from 'http';
 
 // const server = http.createServer((req, res)=>{
-//     res.setHeader('Content- Type', 'text/plain');
+//     res.setHeader('Content-Type', 'text/plain');
 // res.end('Response from server');
 // });
 // server.listen(8000, 'localhost', ()=>{
@@ -11,7 +11,7 @@ import http from 'http';
 
 
 const server = http.createServer((req, res)=>{
-    res.setHeader('Content- Type', 'text/plain');
+    res.setHeader('Content-Type', 'text/plain');
 res.end('Response from server');
 });
 
